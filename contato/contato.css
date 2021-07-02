@@ -1,0 +1,143 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:aliceblue;
+    font-family: 'Quicksand', sans-serif;
+}
+
+form{
+    font-size: 20px;
+    background-color: #ccd8da;
+    max-width: 700px;
+    margin: 150px auto ;
+    padding: 10px 10px 10px 10px;
+    background: #d3e8ee;
+            box-shadow: 0px 10px 36px 10px rgb(21, 21, 49);
+            backdrop-filter: blur(4px);
+            -webkit-backdrop-filter: blur(4px);
+            border-radius: 10px;
+            border: 2px solid rgba(58, 55, 53, 0.18);
+    
+}
+
+#principal {
+    background: #a81b85;
+    height: 10vh;
+    text-align: center;
+    align-items: center;
+    max-width: 100%;
+}
+
+#principal a {
+    color: #d82a2a;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+#principal li, #principal ul {
+    display: inline-block; 
+}
+
+.navegacao {
+    padding-top: 3px;
+    padding-left: 0;
+    padding-right: 40px;
+}
+
+
+a {
+    text-decoration: none;
+    
+}
+
+h1{
+    color: #0f0f0e;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+input, textarea{
+    width: 470px;
+    padding: 10px ;
+}
+
+.enviar input{
+    background-color: rgb(156, 220, 231);
+    height: 40px;
+    width: 150px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid;
+    color: rgb(15, 10, 10);
+    cursor: pointer;
+
+}
+
+.enviar input:hover{
+    background-color: rgb(88, 190, 197);
+}
+
+textarea{
+    width: 470px;
+    height: 170px;
+    line-height: 20px;
+}   
+
+.whatsapp-link{
+    text-decoration: none;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 1;
+}
+
+#navegacao {
+    background-color: green;
+    height: 7vh;
+    text-align: left;
+    padding: 20px 0 0 20px;
+}
+
+#navegacao a {
+    color: white;
+    text-decoration: none;
+    
+}
+
+.logo{
+    letter-spacing: 1px;
+    float: left;
+    color: #000;
+    font-size: 22px;
+    line-height: 80px;
+    padding: 0 6px;
+    background-image: url(../imagens/logo.png);
+}
+
+
+.menu{
+    float: right;
+    line-height: 60px;
+    margin: 0;
+   
+   
+  }
+  .menu ul{
+    list-style: none;
+  
+  }
+  .menu ul li{
+    display: inline-block;
+    background-color: #00b8d4;
+    border-radius: 50px;
+  }
+  .menu ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: lighter ;
+    padding: 0 20px;
+  }
+
