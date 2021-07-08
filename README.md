@@ -1,6 +1,6 @@
-# Portfolio
+# Codando do  Zero
 
-Meu portfolio
+Site do projeto  
 ## Tarefas
 
 O controle das tarefas no GitHub
