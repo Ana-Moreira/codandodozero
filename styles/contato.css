@@ -8,7 +8,7 @@ body{
 form{
     font-size: 20px;
     background-color: #ccd8da;
-    max-width: 700px;
+    max-width: 550px ;
     margin: 150px auto ;
     padding: 10px 10px 10px 10px;
     background: #d3e8ee;
@@ -20,29 +20,6 @@ form{
     
 }
 
-#principal {
-    background: #a81b85;
-    height: 10vh;
-    text-align: center;
-    align-items: center;
-    max-width: 100%;
-}
-
-#principal a {
-    color: #d82a2a;
-    text-decoration: none;
-    font-weight: normal;
-}
-
-#principal li, #principal ul {
-    display: inline-block; 
-}
-
-.navegacao {
-    padding-top: 3px;
-    padding-left: 0;
-    padding-right: 40px;
-}
 
 
 a {
@@ -94,33 +71,13 @@ textarea{
     z-index: 1;
 }
 
-#navegacao {
-    background-color: green;
-    height: 7vh;
-    text-align: left;
-    padding: 20px 0 0 20px;
-}
 
-#navegacao a {
-    color: white;
-    text-decoration: none;
-    
-}
 
-.logo{
-    letter-spacing: 1px;
-    float: left;
-    color: #000;
-    font-size: 22px;
-    line-height: 80px;
-    padding: 0 6px;
-    background-image: url(../imagens/logo.png);
-}
 
 
 .menu{
     float: right;
-    line-height: 60px;
+    line-height: 30px;
     margin: 0;
    
    
@@ -131,8 +88,8 @@ textarea{
   }
   .menu ul li{
     display: inline-block;
-    background-color: #00b8d4;
-    border-radius: 50px;
+    background-color: rgb(156, 220, 231);
+    border-radius: 20px;
   }
   .menu ul li a{
     text-decoration: none;
